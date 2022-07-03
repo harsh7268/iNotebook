@@ -34,15 +34,15 @@ export default function Signup() {
     <div className="container my-5" style={{width:'30rem'}} >
    <form onSubmit={handleSubmit}>
   <div className="form-group">
-    <label htmlFor="name">Title</label>
+    <label htmlFor="name">Name</label>
     <input onChange={onChange} type="text" className="form-control" id="name" name="name" value={user.name}  aria-describedby="emailHelp" />
   </div>
   <div className="form-group">
-    <label htmlFor="email">Description</label>
+    <label htmlFor="email">Email </label>
     <input onChange={onChange} type="email" className="form-control" id="email" name="email" value={user.email}/>
   </div>
   <div className="form-group">
-    <label htmlFor="password">Tag</label>
+    <label htmlFor="password">Password</label>
     <input onChange={onChange} type="password" className="form-control" id="password" name="password" value={user.password} />
   </div>
 
